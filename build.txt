@@ -1,0 +1,50 @@
+NERDS Layout 0.15.2 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m designcraft-color v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\color)
+[1m[92m   Compiling[0m designcraft-geom v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\geom)
+[1m[92m   Compiling[0m designcraft-fonts v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\fonts)
+[1m[92m   Compiling[0m hypher v0.1.8
+[1m[92m   Compiling[0m designcraft-doc v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\doc)
+[1m[92m   Compiling[0m designcraft-ui-egui v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\ui-egui)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=04aa1703b32d299e54f78fcde4182f2b393a9116#04aa1703)
+[1m[92m   Compiling[0m designcraft v0.15.2 (D:\a\nerds-layout\nerds-layout\apps\designcraft)
+[1m[92m   Compiling[0m craft-dialogs v0.1.0 (https://github.com/storytold/craft-libs?rev=1a11a4897865f7410c40d25ca6e452ce399a1a2c#1a11a489)
+[1m[92m   Compiling[0m designcraft-images v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\images)
+[1m[92m   Compiling[0m designcraft-compose v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\compose)
+[1m[92m   Compiling[0m designcraft-epub v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\epub)
+[1m[92m   Compiling[0m designcraft-pptx v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\pptx)
+[1m[92m   Compiling[0m designcraft-pdf v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\pdf)
+[1m[92m   Compiling[0m designcraft-tools v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\tools)
+[1m[92m   Compiling[0m designcraft-render v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\render)
+[1m[92m   Compiling[0m designcraft-format v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\format)
+[1m[92m   Compiling[0m designcraft-idml v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\idml)
+[1m[92m   Compiling[0m designcraft-textimport v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\textimport)
+[1m[92m   Compiling[0m designcraft-engine v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\engine)
+[1m[92m   Compiling[0m designcraft-mcp v0.15.2 (D:\a\nerds-layout\nerds-layout\crates\mcp)
+[1m[92m   Compiling[0m designcraft-cli v0.15.2 (D:\a\nerds-layout\nerds-layout\apps\designcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 12m 25s
+ok designcraft.exe: x64, PE subsystem 2
+ok designcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-layout\nerds-layout\target\windows-package\x64\designcraft.exe, D:\a\nerds-layout\nerds-layout\target\windows-package\x64\designcraft-cli.exe
+==> wix build
+PASS DesignCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-layout\nerds-layout\dist\release\designcraft-0.15.2-windows-x64.msi
+==> designcraft-cli --version
+designcraft-cli 0.15.2
+
+[32;1mName                                       [0m[32;1m    Length[0m
+[32;1m----                                       [0m [32;1m   ------[0m
+designcraft-0.15.2-windows-x64.msi           98115584
+designcraft-0.15.2-windows-x64-portable.zip 123879774
+
