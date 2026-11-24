@@ -1,0 +1,9 @@
+total 632624
+-rw-r--r-- 1 runner runner       425 Nov 24 00:34 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 276105355 Nov 24 00:34 designcraft-0.21.1-macos-universal.dmg
+-rw-r--r-- 1 runner runner 139450405 Nov 24 00:34 designcraft-0.21.1-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner 107962368 Nov 24 00:34 designcraft-0.21.1-windows-x64.msi
+-rw-r--r-- 1 runner runner 124273309 Nov 24 00:34 designcraft-cli-0.21.1-macos-universal.zip
+23759 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-layout/releases/tag/untagged-d7b99c1b86fd0694b474
+https://github.com/nerds-coach/nerds-layout/releases/tag/v0.21.1
